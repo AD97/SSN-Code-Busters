@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for contest in contest_list %}
+        <p>{{ contest.contest_name }}</p>
+        <br>
+    {% endfor %}
+{% endblock %}
